@@ -1,0 +1,33 @@
+@media (max-width: 992px){
+	.navbar-nav .nav-link{
+		border-top: 1px solid #f1f1f1 !important;
+	}
+
+	.dropdown-menu{
+		margin-left: 0px !important;
+	}
+
+	/*carousel section*/
+	.carousel-item img{
+		height: 60vh;
+	}
+
+	.carousel-caption{
+		top: 20%;
+	}
+
+	.carousel-caption h5{
+		font-size: 20px;
+	}
+
+	.carousel-caption p{
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	.c_btn a{
+		font-size: 14px;
+	}
+
+
+}

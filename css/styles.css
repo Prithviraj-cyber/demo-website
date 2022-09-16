@@ -34,7 +34,7 @@ a{
 }
 
 .top_sec i{
-	font-size: 14px;
+	font-size: 13px;
 	margin-right: 5px;
 	color: #fff;
 }
@@ -246,6 +246,7 @@ a{
 	background-color: #f1f1f1;
 }
 
+
 .about img{
 	width: 90%;
 	height: 50vh;
@@ -391,8 +392,8 @@ img.mfp-img{
 }
 
 .testi_details img{
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	border-radius: 50%;
 }
 
@@ -405,12 +406,12 @@ img.mfp-img{
 }
 
 .star i{
-	font-size: 15px;
+	font-size: 14px;
 	color: #ff9900;
 }
 
 .testi_details p{
-	font-size: 12px;
+	font-size: 11px;
 	color: #4d4d4d;
 	font-weight: 400;
 	margin: 3px 0;
@@ -419,7 +420,7 @@ img.mfp-img{
 }
 
 .testi_details h2{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 600;
 	color: #000;
 	margin-top: 5px;
@@ -427,14 +428,14 @@ img.mfp-img{
 }
 
 .testi_details h2 span{
-	font-size: 15px;
+	font-size: 14px;
 	color: #4d4d4d;
 	font-weight: 400;
 	margin-left: 10px;
 }
 
 .testi_details h4{
-	font-size: 14px;
+	font-size: 13px;
 	padding: 0;
 	margin: 0;
 	color: var(--first-color);
@@ -448,7 +449,7 @@ img.mfp-img{
 }
 
 .t_details p{
-	font-size: 14px;
+	font-size: 13px;
 	font-family: var(--body-font2);
 	text-align: justify;
 	color: #4d4d4d;

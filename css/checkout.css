@@ -1,0 +1,232 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.checkout_section{
+	padding: 1.5rem 0px;
+}
+
+.checkout_section h1{
+	font-size: 22px;
+	font-family: var(--body-font);
+	color: #000;
+	font-weight: 900;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.checkout_box{
+	margin: 10px 0;
+}
+
+.checkout_box .form-label{
+	font-size: 16px;
+	color: #4d4d4d;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-family: var(--body-font2);
+}
+
+.checkout_box input{
+	border-radius: 0px;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.form-check-input{
+	border-radius: 0px !important;
+	margin-right: 5px;
+}
+
+.form-check-label{
+	font-size: 16px;
+	color: #4d4d4d;
+	font-family: var(--body-font2);
+}
+
+.checkout_box button{
+	font-size: 16px;
+	padding: 5px 40px;
+	border-radius: 0px;
+	font-family: var(--body-font2);
+}
+
+.checkout_box h2{
+	font-size: 18px;
+	font-family: var(--body-font);
+	font-weight: 900;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+	color: #000;
+}
+
+.checkbox_box2{
+	padding: 20px 10px;
+	background-color: #f1f1f1;
+}
+
+.check_details{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.check_details h3{
+	font-size: 16px;
+	font-family: var(--body-font2);
+	font-weight: 700;
+	color: #000;
+	margin-top: 10px;
+}
+
+.check_details p{
+	font-size: 14px;
+	font-family: var(--body-font2);
+	font-weight: 500;
+	color: #4d4d4d;
+	margin: 0;
+}
+
+.check_details h4{
+	font-size: 14px;
+	font-family: var(--body-font2);
+	font-weight: 700;
+	color: #4d4d4d;
+	margin: 0;
+}
+
+.subtotal{
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 5px 0;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.total{
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 5px;
+}
+
+.checkout_box button{
+	margin: 10px 0;
+	border: 1px solid var(--first-color);
+	background-color: var(--first-color);
+	padding: 5px 30px;
+	color: #fff;
+}
+
+.checkbox p{
+	font-size: 16px;
+	font-family: var(--body-font2);
+	font-weight: 500;
+	color: #4d4d4d;
+	margin-top: 10px;
+}
+
+.check_details_button{
+	text-align: center;
+}
+
+
+/*registration*/
+.google_login{
+	margin-top: 2rem;
+}
+
+.google_login ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.google_login ul a{
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 10px;
+	background-color: #fff;
+}
+
+.google_login .google{
+	color: #EA4335;
+	border: 1px solid #EA4335;
+}
+
+.google_login .linkedin{
+	color: #0072b1;
+	border: 1px solid #0072b1;
+}
+
+.google_login .facebook{
+	color: #0072b1;
+	border: 1px solid #0072b1;
+}
+
+.google_login p{
+	font-size: 16px;
+	text-align: center;
+	color: #4d4d4d;
+	font-family: var(--body-font2);
+	margin-top: 2rem;
+}
+
+.login{
+	padding: 1rem 10px;
+	margin: 1rem 0;
+}
+
+/* Style the tab */
+.tab {
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+}
+
+.tab button {
+	border: 1px solid var(--first-color);
+ 	outline: none;
+  	cursor: pointer;
+  	padding: 5px 30px;
+  	font-size: 16px;
+  	font-family: var(--body-font);
+  	color: #4d4d4d;
+  	background-color: #fff;
+  	box-shadow: 1px 1px 5px #000;
+  	margin-bottom: 10px;
+}
+
+.tab button:hover {
+  	background-color: var(--first-color);
+  	box-shadow: none;
+  	color: #fff;
+}
+
+.tab button.active {
+  	background-color: var(--first-color);
+  	color: #fff;
+}
+
+.tabcontent {
+  	display: none;
+  	margin-top: 2rem;
+}
+
+.tabcontent h3{
+	font-size: 20px;
+	font-family: var(--body-font2);
+	font-weight: 700;
+	color: #4d4d4d;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.login img{
+	width: 100%;
+}

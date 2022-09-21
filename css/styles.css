@@ -110,12 +110,12 @@ a{
 /*carousel section*/
 .carousel-item img{
 	width: 100%;
-	height: 90vh;
+	height: 50vh;
 	filter: brightness(0.5);
 }
 
 .carousel-caption{
-	top: 40%;
+	top: 30%;
 }
 
 .carousel-caption h5{
@@ -196,6 +196,10 @@ a{
 	border-radius: 10px;
 }
 
+.f_box:hover{
+	box-shadow: 2px 2px 8px var(--first-color);
+}
+
 .f_box img{
 	width: 100%;
 	height: 35vh;
@@ -214,24 +218,28 @@ a{
 	font-size: 16px;
 	font-family: var(--body-font2);
 	margin: 10px 0;
+	padding: 0 10px;
 	color: #4d4d4d;
 	text-align: justify;
 	font-weight: 400;
 }
 
 .feat_btn{
-	text-align: center;
+	justify-content: center;
 	margin: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .feat_btn a{
-	font-size: 16px;
+	font-size: 14px;
 	color: #fff;
 	background-color: var(--first-color);
 	padding: 6px 25px;
 	box-shadow: 2px 3px 5px #4d4d4d;
 	border: 1px solid var(--first-color);
 	font-weight: 400;
+	margin: 4px 2px;
 }
 
 .feat_btn a:hover{
@@ -365,6 +373,10 @@ a{
 	border: 2px solid var(--first-color);
 }
 
+.popup-gallery img:hover{
+	box-shadow: 3px 5px 10px #000;
+}
+
 img.mfp-img{
 	height: 80vh;
 	text-align: center;
@@ -373,6 +385,7 @@ img.mfp-img{
 /*videos sections*/
 .videos{
 	padding: 2rem 0;
+	background-color: #f1f1f1;
 }
 
 .videos_box{
@@ -382,7 +395,6 @@ img.mfp-img{
 /*section testimonial*/
 .testimonial{
 	padding: 2rem 0;
-	background-color: #f1f1f1;
 }
 
 .testi_box{
@@ -458,6 +470,7 @@ img.mfp-img{
 /*contact section*/
 .contact{
 	padding: 1rem 0;
+	background-color: #f1f1f1;
 }
 
 .contact_box{

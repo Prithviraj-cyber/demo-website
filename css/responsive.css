@@ -9,11 +9,11 @@
 
 	/*carousel section*/
 	.carousel-item img{
-		height: 60vh;
+		height: 40vh;
 	}
 
 	.carousel-caption{
-		top: 20%;
+		top: 10%;
 	}
 
 	.carousel-caption h5{

@@ -230,3 +230,105 @@
 .login img{
 	width: 100%;
 }
+
+/*thank you*/
+.thank_you{
+	padding-bottom: 1rem;
+}
+
+.thank{
+	padding: 0 1rem;
+}
+
+.thank img{
+	width: 100%;
+}
+
+.thank_btn{
+	text-align: center;
+	margin: 1.5rem 0;
+}
+
+.thank_btn a{
+	border: 1px solid var(--first-color);
+	padding: 5px 30px;
+	font-family: var(--body-font2);
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	background-color: var(--first-color);
+	box-shadow: 2px 2px 8px #000;
+}
+
+.thank_btn a:hover{
+	background-color: #fff;
+	color: var(--first-color);
+	box-shadow: none;
+}
+
+/*reviews section*/
+.review{
+	padding: 2rem 0;
+}
+
+.review_box h1{
+	font-family: var(--body-font);
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+}
+
+.review_box i{
+	margin-right: 10px;
+}
+
+.review_box p{
+	font-family: var(--body-font2);
+	font-size: 16px;
+	font-weight: 500;
+	color: #4d4d4d;
+	margin-top: 15px;
+}
+
+.review_box h3{
+	font-family: var(--body-font);
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 1.5rem;
+}
+
+.review_box ul{
+	list-style-type: none;
+	padding: 0;
+	margin-top: 10px;
+}
+
+.review_box ul i{
+	font-size: 20px;
+	margin-right: 5px;
+	color: #000;
+}
+
+.review_box h2{
+	font-family: var(--body-font);
+	font-size: 22px;
+	font-weight: 700;
+	color: #000;
+	margin-top: 1rem;
+}
+
+.review_box h2 i{
+	margin-left: 10px;
+}
+
+.review_box input{
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: var(--body-font2);
+}
+
+.review_text{
+	margin-top: 0px !important;
+	margin-bottom: 1rem;
+}
